@@ -9,5 +9,36 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(to right, #33e3ff, #ac33ff);
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+h1{
+  font: 600 2rem 'Raleway', sans-serif;
+  margin-top: 3rem;
+  text-transform: uppercase;
+  background-color: #33e3ff;
+}
+
+.form-group {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.form-group input {
+  border: none;
+}
+
+h3 {
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  h1{
+    font: 400 0.5rem;
+  }
 }
